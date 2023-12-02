@@ -1,21 +1,15 @@
 .lmj-plant-item-cover {
-	height: 220px;
-	width: 220px;
+	height: 250px;
+	width: 250px;
 	border-radius: 20px;
-}
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si l'espace est insuffisant */
+	object-fit: cover;
 }
 
 .lmj-plant-item {
-    margin: 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start; /* Aligner les éléments au début de l'axe principal */
-    flex-direction: column;
-    text-transform: capitalize;
-    overflow: auto; /* Ajouter une barre de défilement si le contenu dépasse la hauteur de l'élément */
-    height: auto; /* Permettre à l'élément de s'étendre pour s'adapter à tout son contenu */
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
 }
